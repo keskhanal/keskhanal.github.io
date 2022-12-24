@@ -1,14 +1,7 @@
 *.pyc
-*.pyo
-venv/
-.venv/
-env*
-dist/
-build/
+env/
 .cache/
 .pytest_cache/
-.idea/
-docs/_build/
 .vscode
 
 # Coverage reports
