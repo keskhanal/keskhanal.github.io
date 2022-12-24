@@ -1,0 +1,11 @@
+*.pyc
+env/
+.cache/
+.pytest_cache/
+.vscode
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
