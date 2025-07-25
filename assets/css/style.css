@@ -1186,3 +1186,17 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# typewriter
+--------------------------------------------------------------*/
+.typewriter-text::after {
+  content: "|";
+  animation: blinkCursor 0.5s infinite;
+  color: #00aaff;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
